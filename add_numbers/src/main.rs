@@ -7,6 +7,4 @@ fn main() {
     let num2: i32 = args[2].parse().unwrap();
 
     println!("The sum of {} and {} is {}!", num1, num2, num1 + num2);
-
-    println!({}, args)
 }

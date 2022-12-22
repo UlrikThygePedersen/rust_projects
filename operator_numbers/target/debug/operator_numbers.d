@@ -1,0 +1,1 @@
+C:\Users\10122055\OneDrive\ -\ NTT\ DATA\ Business\ Solutions\Projekter\Rust_Projects\operator_numbers\target\debug\operator_numbers.exe: C:\Users\10122055\OneDrive\ -\ NTT\ DATA\ Business\ Solutions\Projekter\Rust_Projects\operator_numbers\src\main.rs
