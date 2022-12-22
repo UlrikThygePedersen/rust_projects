@@ -1,0 +1,1 @@
+C:\Users\10122055\OneDrive\ -\ NTT\ DATA\ Business\ Solutions\Projekter\Rust_Projects\HelloName\target\debug\HelloName.exe: C:\Users\10122055\OneDrive\ -\ NTT\ DATA\ Business\ Solutions\Projekter\Rust_Projects\HelloName\src\main.rs
