@@ -1,1 +1,0 @@
-C:\Users\10122055\OneDrive\ -\ NTT\ DATA\ Business\ Solutions\Projekter\Rust_Projects\add_numbers\target\debug\add_numbers.exe: C:\Users\10122055\OneDrive\ -\ NTT\ DATA\ Business\ Solutions\Projekter\Rust_Projects\add_numbers\src\main.rs
