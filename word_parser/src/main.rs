@@ -1,22 +1,29 @@
-use clap::Parser;
-use std::path::PathBuf;
-
-/// Count the number of lines in a file
-#[derive(Parser)]
-#[command(arg_required_else_help = true)]
-struct Cli {
-    /// The path to the file to read
-    file: PathBuf,
-}
+use std::process;
+use std::env;
+use std::fs::File;
+use std::io::{prelude::*, BufReader};
 
 fn main() {
-    let args = Cli::parse();
-    let mut word_count = 0;
-    let file = args.file;
-
-    for line in std::fs::read_to_string(&file).unwrap().lines() {
-        word_count += line.split(' ').count();
+    let args: Vec<String> = env::args().collect();
+    if args.len() != 2 {
+        println!("Invalid command, please run `word-counter <file-path>`");
+        process::exit(1);
     }
+    let file_path = &args[1];
+    println!("Parsing the file {0}", file_path);
+    let word_count = count_words_from(file_path);
+    println!("{0}", word_count);
+}
 
-    println!("Words in {}: {}", file.to_str().unwrap(), word_count)
+fn count_words_from(file_path: &str) -> u32 {
+    let file = File::open(file_path).expect("error opening the file");
+    let reader = BufReader::new(file);
+    let mut word_count: u32 = 0;
+    for line in reader.lines() {
+        let curr: String = line.expect("error reading content of the file");
+        let words: Vec<&str> = curr.split(' ').collect();
+        let filtered_words: Vec<&str> = words.into_iter().filter(|word| word.len() > 0).collect();
+        word_count+= filtered_words.len() as u32
+    }
+    return word_count
 }
