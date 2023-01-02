@@ -1,1 +1,0 @@
-C:\Users\10122055\OneDrive\ -\ NTT\ DATA\ Business\ Solutions\Projekter\Rust_Projects\word_parser\target\release\word_parser.exe: C:\Users\10122055\OneDrive\ -\ NTT\ DATA\ Business\ Solutions\Projekter\Rust_Projects\word_parser\src\main.rs
