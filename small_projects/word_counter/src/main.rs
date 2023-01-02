@@ -1,4 +1,5 @@
-use std::collections::HashMap;
+// use std::collections::Hashmap;
+use std::collections::BTreeMap;
 use std::env;
 use std::fs;
 
@@ -14,12 +15,15 @@ fn main() {
     // Give a fixed text
     // let text = "Hello Prayson, how many words did you find?";
 
-    let mut map = HashMap::new();
+    let mut map = BTreeMap::new();
 
     for word in text.split_whitespace() {
         let count = map.entry(word).or_insert(0);
         *count += 1;
     }
 
-    println!("{:?}", map);
+    for (word, count) in &map {
+        println!("The word {word} was used {count} times!")
+    }
+    // println!("Words in the provided .txt file is: {:?}", map);
 }
