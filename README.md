@@ -12,6 +12,10 @@ Documentation of my journey, from small projects to advanced machine learning.
 
 
 * [Small Projects](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects)
+    * [Add Numbers](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects/add_numbers)
+    * [Word Counter](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects/word_counter)
+    * [Word Counter](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects/word_counter)
+    * [Word Counter](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects/word_counter)
     * [Word Counter](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects/word_counter)
 
 
