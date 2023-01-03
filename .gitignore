@@ -130,3 +130,6 @@ dmypy.json
 
 # Virtuel env
 venv/
+
+# Linfa tex file
+.tex
