@@ -19,7 +19,7 @@ Documentation of my journey, from small projects to advanced machine learning.
 
 ## Rust Data Science Projects 
 
-<img src = "mascot.svg" alt="Linfa" width="500" height="600"/>
+<img src = "mascot.svg" alt="Linfa" width="50" height="60"/>
 
 * [Data Science](https://github.com/UlrikThygePedersen/rust_projects/tree/main/data_science)
     * [Linfa](https://github.com/UlrikThygePedersen/rust_projects/tree/main/data_science/linfa_decision_tree)
