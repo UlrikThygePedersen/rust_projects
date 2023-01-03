@@ -8,8 +8,7 @@ Documentation of my journey, from small projects to advanced machine learning.
 
 <img src="ferris.png" alt="Alt text" title="Optional title">
 
-## Links to various projects
-
+## Links to the projects
 
 * [Small Projects](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects)
     * [Add Numbers](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects/add_numbers)
