@@ -1,0 +1,61 @@
+
+\documentclass[margin=10pt]{standalone}
+\usepackage{tikz,forest}
+\usetikzlibrary{arrows.meta}
+\forestset{
+default preamble={
+before typesetting nodes={
+  !r.replace by={[, coordinate, append]}
+},  
+where n children=0{
+  tier=word,
+}{  
+  %diamond, aspect=2,
+},  
+where level=0{}{
+  if n=1{
+    edge label={node[pos=.2, above] {Y}},
+  }{  
+    edge label={node[pos=.2, above] {N}},
+  }   
+},  
+for tree={
+  edge+={thick, -Latex},
+  s sep'+=2cm,
+  draw,
+  thick,
+  edge path'={ (!u) -| (.parent)},
+  align=center,
+}   
+}
+}\begin{document}\begin{forest}[Val($3$) $ \leq 250.00$ \\ Imp. $0.07$
+	[Label: "Busy"]
+	[Val($3$) $ \leq 365.00$ \\ Imp. $0.09$
+		[Label: "Very Busy"]
+		[Val($3$) $ \leq 470.00$ \\ Imp. $0.10$
+			[Label: "Busy"]
+			[Val($1$) $ \leq 0.50$ \\ Imp. $0.06$
+				[Val($3$) $ \leq 525.00$ \\ Imp. $0.06$
+					[Label: "Normal"]
+					[Val($3$) $ \leq 590.00$ \\ Imp. $0.13$
+						[Val($3$) $ \leq 545.00$ \\ Imp. $0.50$
+							[Label: "Very Busy"]
+							[Label: "Busy"]]
+						[Val($3$) $ \leq 795.00$ \\ Imp. $0.08$
+							[Label: "Very Busy"]
+							[Label: "Normal"]]]]
+				[Val($3$) $ \leq 890.00$ \\ Imp. $0.15$
+					[Val($3$) $ \leq 670.00$ \\ Imp. $0.12$
+						[Val($3$) $ \leq 500.00$ \\ Imp. $0.38$
+							[Label: "Very Busy"]
+							[Label: "Busy"]]
+						[Val($3$) $ \leq 865.00$ \\ Imp. $0.38$
+							[Label: "Very Busy"]
+							[Label: "Busy"]]]
+					[Label: "Normal"]]]]]]
+\node [anchor=north west] at (current bounding box.north east) {%
+                \begin{tabular}{c c c}
+                  \multicolumn{3}{@{}l@{}}{Legend:}\\
+                  Imp.&:&Impurity decrease\\Var(3)&:&Cars at 8 AM\\Var(1)&:&Event\\\end{tabular}};
+	\end{forest}
+\end{document}
