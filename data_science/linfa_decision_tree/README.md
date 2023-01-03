@@ -1,4 +1,4 @@
-# Linfa Decision Tree Model
+# Linfa Decision Tree Model <img src = "mascot.svg" alt="Linfa" width="10" height="12"/>
 
 Simple Decision Tree model to predict tourism in larger cities based on the weather, events, holidays and cars in the morning.
 
@@ -7,6 +7,3 @@ Simple Decision Tree model to predict tourism in larger cities based on the weat
 [Linfa Documentation](https://github.com/rust-ml/linfa)
 
 [Linfa Trees Documentation](https://docs.rs/linfa-trees/latest/linfa_trees/)
-
-<p style="text-align:center;">
-<img src = "mascot.svg" alt="Linfa" width="400" height="480"/></p>
