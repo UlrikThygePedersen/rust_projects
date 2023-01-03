@@ -12,7 +12,7 @@ Documentation of my journey, from small projects to advanced machine learning.
 
 
 * [Small Projects](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects)
-** [Word Counter](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects/word_counter)
+    * [Word Counter](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects/word_counter)
 
 
-** [Linfa](https://github.com/UlrikThygePedersen/rust_projects/tree/main/data_science/linfa_decision_tree)
+        * [Linfa](https://github.com/UlrikThygePedersen/rust_projects/tree/main/data_science/linfa_decision_tree)
