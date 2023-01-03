@@ -130,6 +130,3 @@ dmypy.json
 
 # Virtuel env
 venv/
-
-# Linfa tex file
-/data_science/linfa_decision_tree/*.tex
