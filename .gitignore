@@ -132,4 +132,4 @@ dmypy.json
 venv/
 
 # Linfa tex file
-.tex
+/data_science/linfa_decision_tree/*.tex
