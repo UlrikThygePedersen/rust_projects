@@ -1,7 +1,6 @@
 # Linfa Decision Tree Model
 
-<img src="mascot.svg" alt="Alt text" title="Optional title">
-
+[]()
 
 [Linfa Documentation](https://github.com/rust-ml/linfa)
 
