@@ -8,4 +8,5 @@ Simple Decision Tree model to predict tourism in larger cities based on the weat
 
 [Linfa Trees Documentation](https://docs.rs/linfa-trees/latest/linfa_trees/)
 
+<p style="text-align:center;">
 <img src = "mascot.svg" alt="Linfa" width="400" height="480"/>
