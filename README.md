@@ -8,7 +8,7 @@ Documentation of my journey, from small projects to advanced machine learning.
 
 <img src="ferris.png" alt="Ferris the Crab" title="Ferris the Crab">
 
-## Smaller Rust projects
+## Smaller Rust Projects
 
 * [Small Projects](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects)
     * [Add Numbers](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects/add_numbers)
