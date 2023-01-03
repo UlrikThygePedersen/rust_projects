@@ -1,6 +1,6 @@
 # Linfa Decision Tree Model
 
-<img src = "mascot.svg" alt="My Happy SVG"/>
+<img src = "C:\Users\10122055\OneDrive - NTT DATA Business Solutions\Projekter\Rust_Projects\mascot.svg" alt="My Happy SVG"/>
 
 [Linfa Documentation](https://github.com/rust-ml/linfa)
 
