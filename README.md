@@ -6,9 +6,9 @@ Collection of my adventures into Rust, as a python data scientist, who likes mac
 
 Documentation of my journey, from small projects to advanced machine learning.
 
-<img src="ferris.png" alt="Alt text" title="Optional title">
+<img src="ferris.png" alt="Ferris the Crab" title="Ferris the Crab">
 
-## Links to the projects
+## Smaller Rust projects
 
 * [Small Projects](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects)
     * [Add Numbers](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects/add_numbers)
@@ -16,6 +16,8 @@ Documentation of my journey, from small projects to advanced machine learning.
     * [Hello Name](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects/hello_name)
     * [Fun Strings](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects/fun_strings)
     * [Word Counter](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects/word_counter)
+
+## Rust Data Science Projects <img src = "mascot.svg" alt="Linfa"/>
 
 * [Data Science](https://github.com/UlrikThygePedersen/rust_projects/tree/main/data_science)
     * [Linfa](https://github.com/UlrikThygePedersen/rust_projects/tree/main/data_science/linfa_decision_tree)
