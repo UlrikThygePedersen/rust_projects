@@ -17,9 +17,7 @@ Documentation of my journey, from small projects to advanced machine learning.
     * [Fun Strings](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects/fun_strings)
     * [Word Counter](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects/word_counter)
 
-## Rust Data Science Projects 
-
-<img src = "mascot.svg" alt="Linfa" width="100" height="120"/>
+## Rust Data Science Projects <img src = "mascot.svg" alt="Linfa" width="50" height="60"/>
 
 * [Data Science](https://github.com/UlrikThygePedersen/rust_projects/tree/main/data_science)
     * [Linfa Decision Tree](https://github.com/UlrikThygePedersen/rust_projects/tree/main/data_science/linfa_decision_tree)

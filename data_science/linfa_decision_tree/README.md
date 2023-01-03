@@ -1,4 +1,4 @@
-# <img src = "mascot.svg" alt="Linfa" width="50" height="60"/> Linfa Decision Tree Model 
+# Linfa Decision Tree Model <img src = "mascot.svg" alt="Linfa" width="50" height="60"/>
 
 Simple Decision Tree model to predict tourism in larger cities based on the weather, events, holidays and cars in the morning.
 
