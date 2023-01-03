@@ -13,10 +13,10 @@ Documentation of my journey, from small projects to advanced machine learning.
 
 * [Small Projects](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects)
     * [Add Numbers](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects/add_numbers)
-    * [Word Counter](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects/word_counter)
-    * [Word Counter](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects/word_counter)
-    * [Word Counter](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects/word_counter)
+    * [Operator Numbers](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects/operator_numbers)
+    * [Hello Name](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects/hello_name)
+    * [Fun Strings](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects/fun_strings)
     * [Word Counter](https://github.com/UlrikThygePedersen/rust_projects/tree/main/small_projects/word_counter)
 
-
-        * [Linfa](https://github.com/UlrikThygePedersen/rust_projects/tree/main/data_science/linfa_decision_tree)
+* [Data Science](https://github.com/UlrikThygePedersen/rust_projects/tree/main/data_science)
+    * [Linfa](https://github.com/UlrikThygePedersen/rust_projects/tree/main/data_science/linfa_decision_tree)
