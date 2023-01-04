@@ -21,3 +21,5 @@ Documentation of my journey, from small projects to advanced machine learning.
 
 * [Data Science](https://github.com/UlrikThygePedersen/rust_projects/tree/main/data_science)
     * [Linfa Decision Tree](https://github.com/UlrikThygePedersen/rust_projects/tree/main/data_science/linfa_decision_tree)
+
+<p style="text-align:center;"><img src="mascot.svg" alt="Logo"></p>
